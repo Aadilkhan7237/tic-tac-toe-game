@@ -1,0 +1,102 @@
+*{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(./finalbackground.jpg);
+    /* background-color: #7e4b8b; */
+    
+}
+
+.game{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px black;
+    background-color:  		#fff;
+}
+.block{
+    height: 125px;
+    width: 125px;
+    align-content: center;
+ /* border: 2px solid black; */
+ 
+}
+.one{
+    border-right:2px solid black ;
+    border-bottom: 2px solid black;
+   
+}
+.two{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.three{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+.four{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.five{
+    border: 2px solid black;
+}
+.six{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+.seven{
+    border-left: 2px solid black ;
+    border-bottom: 2px solid black;
+}
+.eight{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.nine{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.btnStyle{
+    margin-left:10px ;
+    border-radius: 20px;
+
+    /* background-color: #4CAF50; */
+  color: #1f38a9;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  border: 0.5px solid  #1f38a9;
+}
+.btnStyle:hover{
+    background-color: #1f38a9;
+    color: #fff;
+}
+
+.cross{
+    background-image: url(./close.png);
+    background-size:cover ;
+}
+.circle{
+    background-image: url(./O.png);
+    background-size: cover;
+}
